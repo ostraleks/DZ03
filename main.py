@@ -40,7 +40,27 @@
 # [2, 2, 4, 8, 8]
 # [16, 16, 4]
 
-# 
+# import random, math
+# def rand(number):
+#     list = []
+#     for i in range (number):
+#         list.append(random.randint(0, 100))
+#     return list
+
+# def multiplication(num, input_list):
+#     out_list =[]
+#     for i in range (num // 2): 
+#         out_list.append(input_list[i] * input_list[(num-1)-i])
+#     if num % 2 > 0:
+#         out_list.append(input_list[math.ceil(num // 2)])
+#     return out_list  
+# N = input('Введите количество элементов списка ')
+# if N.isdigit() == False:
+#     print ("Значение должно быть полжительным числом > 0")
+# else:
+#     total_list = rand(int(N))  
+#     print(total_list, multiplication(int(N), total_list))
+
 
 # 3. Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 # Без использования встроенной функции преобразования, без строк.Без использования встроенной функции
