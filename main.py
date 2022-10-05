@@ -66,3 +66,31 @@
 # to_binar(int(input('Введите число:'))) 
 
 
+# 4.* Задайте список из произвольных вещественных чисел, количество задаёт пользователь.
+# Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
+# in
+# 5
+# out
+# [5.16, 8.62, 6.57, 7.92, 9.22]
+# Min: 0.16, Max: 0.92. Difference: 0.76
+#
+# in
+# 3
+# out
+# [9.26, 8.5, 1.14]
+# Min: 0.14, Max: 0.5. Difference: 0.36
+
+# import random
+# def rand(number):
+#     list = []
+#     for i in range (number):
+#         list.append(random.random() * 100)
+#         list[i] = round((list[i] - int(list[i])), 2)  
+#     return list
+
+# my_list = rand(int(input('Введите количество элементов: ')))
+# print(my_list)
+# print(f'\nmin number: {min(my_list)} \nmax number: {max(my_list)}')
+
+
+
